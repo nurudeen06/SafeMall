@@ -1,0 +1,67 @@
+body {
+	background-color: black;
+	color: white;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.menu .two{
+	float: right;
+	/*background-color: ;*/
+}
+.menu div ul{
+	display: flex;
+	flex-direction: row;
+	float: right;
+}
+.menu ul li {
+	list-style-type: none;
+	font-size: 25px;
+	margin-left: 12px;
+	padding: 4px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+.menu ul li:nth-child(5) {
+	border-bottom: 3px solid white;
+}
+.content h1 {
+	font-size: 50px;
+	font-family: cursive;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.content h3 {
+	font-size: 35px;
+	color: azure;
+}
+table {
+	border: 2px solid #fff;
+	width: 40rem;
+}
+.card-display {
+	display: flex;
+	justify-content: center;
+}
+.table-desc {
+	background-color: gray;
+	height: 20px;
+}
+.table-option {
+	height: 30px;
+	width: 80px;
+	font-size: 16px;
+}
+.preview-btn {
+	height: 30px;
+	width: auto;
+	background-color: skyblue;
+	color: black;
+	padding: 3px;
+	font-size: 16px;
+}
